@@ -25,6 +25,7 @@ func main() {
 		log.Printf("Using Azure CosmosDB SQL API")
 	default:
 		log.Printf("Using MongoDB API")
+		log.Printf("hello")
 	}
 
 	// Initialize the database
